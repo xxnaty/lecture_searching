@@ -32,10 +32,11 @@ def linear_search(sequence, number):
 
 
 def main():
-    sequential_data = read_data("sequential.json", "unordered numbers")
+    sequential_data = read_data("sequential.json", "unordered_numbers")
     print(sequential_data)
     found_numbers = linear_search(sequential_data, 0)
     print(found_numbers)
+
 
 if __name__ == '__main__':
     main()
